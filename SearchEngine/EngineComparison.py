@@ -17,14 +17,25 @@ def extract_marks(file):
         es_mark = list(map(int, parsing_lines[6].split(',')))
         marks_obj.append((my_mark, es_mark, query))
     return marks_obj
-      
+
+def draw_mean(metrics, columns):
+    x = ["queries"]
+    y = ["mySearch", 'esSearch']
+    data = []
+    for i, m in enumerate(metrics):
+        data.append([columns[i], np.mean(list(map(lambda x: x[1], m))), np.mean(list(map(lambda x: x[2], m)))])
+    print(data)
+    fig, axes = plt.subplots(nrows=1, ncols=1)
+    df1 = pd.DataFrame(data, columns= x + y)      
+    df1.plot(ax=axes, x=x[0], y=y, kind="bar")
+
 def data_to_plot_metric(queries, tensor, q_idxs, metric_type, lvl_type=0):
     result = []
     q_sample = queries[q_idxs]
     my_mark= tensor[q_idxs, 0, lvl_type, metric_type]
     es_mark= tensor[q_idxs, 1, lvl_type, metric_type]
     result = np.column_stack((q_sample, my_mark, es_mark))
-    return [[r[0], float(r[1])] for r in result]
+    return [[r[0], float(r[1]), float(r[2])] for r in result]
 
 def draw_plot(data1, data3, data5, title, x, y, kind="bar"):
     fig, axes = plt.subplots(nrows=1, ncols=3)
@@ -86,30 +97,62 @@ if __name__ == '__main__':
         dP1,
         dP3,
         dP5,
-    title = "P", x = ["queries"], y = ["mySearch"])
+    title = "P", x = ["queries"], y = ["mySearch", "esSearch"])
     
     draw_plot(
         dCG1,
         dCG3,
         dCG5,
-    title = "CG", x = ["queries"], y = ["mySearch"])
+    title = "CG", x = ["queries"], y = ["mySearch", "esSearch"])
     
     draw_plot(
         dDCG1,
         dDCG3,
         dDCG5,
-    title = "DCG", x = ["queries"], y = ["mySearch"])
+    title = "DCG", x = ["queries"], y = ["mySearch", "esSearch"])
     
     draw_plot(
         dNDCG1,
         dNDCG3,
         dNDCG5,
-    title = "NDCG", x = ["queries"], y = [ "mySearch"])
+    title = "NDCG", x = ["queries"], y = ["mySearch", "esSearch"])
     
     draw_plot(
         dERR1,
         dERR3,
         dERR5,
-    title = "ERR", x = ["queries"], y = ["mySearch"])
+    title = "ERR", x = ["queries"], y = ["mySearch", "esSearch"])
     
+    draw_mean([
+        dP1, 
+        dP3, 
+        dP5,
+        dCG1,
+        dCG3,
+        dCG5,
+        dDCG1,
+        dDCG3,
+        dDCG5,
+        dNDCG1,
+        dNDCG3,
+        dNDCG5,
+        dERR1,
+        dERR3,
+        dERR5
+    ], ['P1', 
+        'P3', 
+        'P5',
+        'CG1',
+        'CG3',
+        'CG5',
+        'DCG1',
+        'DCG3',
+        'DCG5',
+        'NDCG1',
+        'NDCG3',
+        'NDCG5',
+        'ERR1',
+        'ERR3',
+        'ERR5'])
+
     plt.show()

@@ -1,23 +1,23 @@
 python 
 20437, 21038, 23076, 23527, 23836
 'Python (programming language)', 'Python (programming language)', 'Python (programming language)', 'Python (programming language)', 'Python (programming language)'
-4, 3, 1, 2, 1
+4, 4, 3, 2, 1
 21049, 21924, 21048, 20437, 21038
 'List of Python software', 'List of Python software', 'History of Python', 'Python (programming language)', 'Python (programming language)'
-3, 3, 4, 2, 2
+5, 3, 4, 2, 2
 
 very & simple & graph & algorithm & with & code & example
 157, 5003, 9818, 1182, 9044
 'List of algorithms', 'List of algorithms', 'Distributed graph coloring', 'Cole–Vishkin algorithm', 'Cole–Vishkin algorithm'
-1, 5, 3, 3, 3
+3, 5, 3, 3, 3
 727, 2991, 3084, 213, 733
 'Force-directed graph drawing', 'Force-directed graph drawing', 'Force-directed graph drawing', 'In-place algorithm', 'Gomory–Hu tree'
-4, 4, 3, 3, 2
+4, 5, 3, 3, 2
 
 where & to & apply & map & reduce
 9751, 10275, 10487, 8367, 4458
 'MapReduce', 'MapReduce', 'MapReduce', 'Convolutional neural network', 'Singular value decomposition'
-3, 1, 2, 2, 2
+4, 3, 2, 2, 2
 9751, 10275, 10487, 23099, 14354
 'MapReduce', 'MapReduce', 'MapReduce', 'UCBLogo', 'Lodash'
 5, 5, 4, 1, 2
@@ -25,7 +25,7 @@ where & to & apply & map & reduce
 emulate & ray & movement
 13329, 13332
 'Id Tech 3', 'Ioquake3'
-3, 2, 2, 1, 1
+4, 3, 2, 1, 1
 18816, 11005, 17804, 16124, 23497
 'Mark Galassi', 'Ambient calculus', 'Michael Halvorson', "Shoot-'Em-Up Construction Kit", 'MAXScript'
 3, 3, 3, 2, 1
@@ -33,7 +33,7 @@ emulate & ray & movement
 what & are & the & game & engines
 16011, 16450, 16142, 16009, 13357
 'Game engine', 'Unreal Engine', 'Unreal Engine', 'First-person shooter engine', 'Torque (game engine)'
-5, 1, 1, 1, 1
+5, 4, 1, 1, 1
 16011, 16009, 16071, 14061, 15458
 'Game engine', 'First-person shooter engine', 'Id Tech 7', 'Rigs of Rods', 'Stage3D'
 5, 5, 4, 2, 1
@@ -41,7 +41,7 @@ what & are & the & game & engines
 ray & casting
 662, 680, 12436, 12207, 12454
 'Point in polygon', 'Visibility polygon', 'Implicit k-d tree', 'Implicit k-d tree', 
-3, 5, 2, 2, 2
+4, 5, 2, 2, 2
 12213, 12454, 662, 12207, 12436
 'Min/max kd-tree', 'Min/max kd-tree', 'Point in polygon', 'Implicit k-d tree', 'Implicit k-d tree'
 4, 4, 4, 3, 3
@@ -57,7 +57,7 @@ faster & sorting & algorithm
 modern & optimization & methods
 3886, 13061, 17313, 12729, 8876
 'Mathematical optimization', 'Compiler', 'Optimizing compiler', 'Premature optimization', 'Premature optimization'
-1, 1, 1, 1, 1
+3, 3, 2, 2, 1
 5813, 4326, 5716, 5829, 4193
 'Modern valence bond theory', 'Shock-capturing method', 'Shock-capturing method', 'Book:Electronic structure methods', 'Olgierd Zienkiewicz'
 4, 4, 5, 5, 5
@@ -65,7 +65,7 @@ modern & optimization & methods
 new & programming & languages
 9135, 21013, 22266, 23704, 24567
 'PL/I', 'PL/I', 'PL/I', 'PL/I', 'PL/I'
-2, 1, 1, 1, 1
+3, 1, 1, 1, 1
 22029, 22129, 9363, 10201, 20336
 'OOPSLA', 'List of programming languages for artificial intelligence', 'Data-centric programming language', 'Data-centric programming language', 'Programming language'
 4, 4, 3, 3, 2
@@ -73,7 +73,7 @@ new & programming & languages
 old & dead & programming & languages
 23085, 24576, 24577, 24578, 24579
 'SiMPLE', 'COBOL 20XX', 'COBOL 60', 'COBOL 68', 'COBOL 74'
-2, 3, 5, 1, 1
+4, 4, 5, 1, 1
 23085, 17324, 19760, 13115, 8839
 'SiMPLE', 'Dead code elimination', 'Dream Build Play', 'Rebasing', 'Code bloat'
 4, 3, 2, 1, 1
@@ -81,7 +81,7 @@ old & dead & programming & languages
 esoteric & programming & languages
 20362, 24036, 22488, 22127, 24767
 'Chef (programming language)', 'Piet (programming language)', 'List of programming languages by type', 'List of programming languages by type', 'Non-English-based programming languages'
-4, 2, 1, 1, 1
+4, 3, 3, 1, 1
 20362, 24036, 22139, 24767, 2
 'Chef (programming language)', 'Piet (programming language)', 'Non-English-based programming languages', 'Non-English-based programming languages', 'List of programming languages'
 4, 4, 5, 5, 4
@@ -89,7 +89,7 @@ esoteric & programming & languages
 django & framework
 16565, 21924, 21049, 19595, 18835
 'Web framework', 'List of Python software', 'List of Python software', 'Adrian Holovaty', 'Adrian Holovaty'
-3, 3, 2, 2, 1
+4, 3, 2, 2, 1
 15481, 17529, 18835, 19595, 17647
 'Comparison of database access', 'Adrian Holovaty', 'Adrian Holovaty', 'Adrian Holovaty', 'Simon Willison'
 2, 3, 3, 3, 1
@@ -97,7 +97,7 @@ django & framework
 django & framework & !python
 16677, 15481, 16516, 16584, 16703
 'Play Framework', 'Comparison of database access', 'ASP.NET MVC', 'ASP.NET MVC', 'Symfony'
-1,1,2,1,1
+3,3,2,1,1
 21065, 17529, 18835, 19595, 17647
 'PythonAnywhere', 'Adrian Holovaty', 'Adrian Holovaty', 'Adrian Holovaty', 'Simon Willison'
 2,2,2,1,1
@@ -105,7 +105,7 @@ django & framework & !python
 (redux | flux | MVVC) & architecture
 14380, 14379, 12013, 12173, 8901
 'Redux (JavaScript library)', 'React (web framework)', 'Persistent data structure', 'Persistent data structure', 'The Art of Computer Programming'
-3, 2, 1, 2, 1
+4, 2, 3, 2, 1
 14380, 14379, 12013, 12173, 1092
 'Redux (JavaScript library)', 'React (web framework)', 'Persistent data structure', 'Persistent data structure', 'The Art of Computer Programming'
 5, 4, 4, 4, 4
@@ -113,7 +113,7 @@ django & framework & !python
 SPA & frontend & frameworks
 14427, 16475, 20237, 16652
 'Vue.js', 'Vue.js', 'Vue.js', 'Laravel'
-4,2,3,1,1
+4,4,3,1,1
 24824, 16676, 14299, 14427, 16475
 'Isomorphic JavaScript', 'PhpCodeGenie', 'Cascade Framework', 'Vue.js', 'Vue.js'
 3,2,4,4,4
@@ -121,7 +121,7 @@ SPA & frontend & frameworks
 most & popular & framework
 21049, 21924, 16699, 20059, 13516
 'List of Python software', 'List of Python software', 'Spring Framework', 'Model–view–controller', 'Firefox'
-2,1,2,2,1
+2,2,2,2,1
 14221, 16209, 16837, 16677, 13353
 'Google Guava', 'PowerPlant', 'PowerPlant', 'Play Framework', 'Starling Framework'
 2,3,3,1,1
@@ -156,4 +156,4 @@ algorithm & for & parsing & polish & notation
 3, 4, 2, 1, 1
 8745, 11820, 8738, 11823, 11810
 'Shunting-yard algorithm', 'Polish notation', 'Operator-precedence parser', 'Reverse Polish notation', 'Infix notation'
-4, 3, 2, 3, 2
+4, 4, 3, 3, 2
